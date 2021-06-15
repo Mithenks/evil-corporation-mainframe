@@ -9,7 +9,8 @@ module.exports = {
       options: {
         domain: "evilcorporation.eu.auth0.com",
         clientID: "WnnlsFttKe4rhH0See7327AmpclT2alm",
-        redirectUri: "http://gatsby-dev.bmeme.docker:8000/auth/callback",
+        redirectUri:
+          "https://evilcorporationmainframe.gatsbyjs.io/auth/callback",
         audience: "https://evil-corp-mainframe/api",
         scope: "openid profile email read:payment",
       },
